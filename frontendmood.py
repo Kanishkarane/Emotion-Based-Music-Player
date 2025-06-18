@@ -28,8 +28,8 @@ if 'spotify_authenticated' not in st.session_state:
 
 # Spotify configuration
 SPOTIFY_CONFIG = {
-    "client_id": "0eecaf83a4cb44828b73ea8507dd7669",
-    "client_secret": "495c2464a176499083713eb8dec1b794",
+    "client_id": "",
+    "client_secret": "",
     "redirect_uri": "http://127.0.0.1:8888/callback",
     "scope": "user-read-playback-state,user-modify-playback-state,user-read-currently-playing"
 }
